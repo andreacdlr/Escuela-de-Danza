@@ -1,0 +1,63 @@
+.blog{
+	padding: 5% 10% 5% 10%;
+}
+.blog h3{
+	font-size:1.2em;
+	text-transform: uppercase;
+	color: black;
+}
+/*articles-photos*/
+.article-1{
+	background-image: url(../img/blog1.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+	height: 226px;	
+}
+.article-2{
+	background-image: url(../img/profesor_5.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+	height: 226px;
+}
+.article-3{
+	background-image: url(../img/instructor_1.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+	height: 226px;
+}
+/*articles-texts*/
+.col-9{
+	background-color: #D8DDDF;
+	padding: 4% 3% 2% 4%;
+	height: 226px;
+}
+.col-9 a{
+	background-color: #0B0B3B;
+	border-radius: 4px;
+	padding: 1.5% 10%;
+	font-size: 1em;
+}
+.col-9 a:hover{
+    color: white;
+	background-color:#0B0B3B;
+	opacity: 0.9;
+}
+.col-9 h3{
+	font-size: 0.9em;
+	color: black;
+	font-weight: bold;
+}
+.col-9 h4{
+	font-style: italic;
+	font-size: 0.9em;
+	padding: 1% 0;
+	color: #C2C2C2;
+}
+.col-9 p{
+	font-size: 0.95em;
+	color: black;
+	padding-bottom: 4%;
+}

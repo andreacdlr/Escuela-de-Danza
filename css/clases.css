@@ -1,0 +1,48 @@
+/*GALLERY*/
+.gallery{
+	padding: 4% 10%;
+}
+.gallery h2{
+	text-transform: uppercase;
+	font-size: 1.3em;
+	color: #000000;
+	padding-bottom: 2%;
+}
+.bg{
+	background-size: cover;
+	padding: 50% 5% 48% 5%;
+	opacity: .7;
+	transition: 1.2s;
+}
+.bg:hover{
+	opacity: .99;
+}
+.ballet{
+	background-image: url(../img/dance_12.jpg); 
+}
+.dance{
+	background-image: url(../img/breakdance.jpg); 
+}
+.jazz{
+	background-image: url(../img/lirical-jazz.jpg); 
+}
+.arabic{
+	background-image: url(../img/arabe.jpg); 
+}
+.kids{
+	background-image: url(../img/little.jpg); 
+}
+.yoga{
+	background-image: url(../img/yoga.jpg); 
+}
+/*description class*/
+.class{
+	background-color: rgba(0, 0, 0, 0.7);
+	padding: 8%;
+	font-size: 0.9em;
+}
+.class h3{
+	font-size: 0.8em;
+	color: white;
+	text-transform: uppercase;
+}

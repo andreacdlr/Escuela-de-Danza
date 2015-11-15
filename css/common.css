@@ -1,0 +1,111 @@
+/*global*/
+*{
+	color: #ffffff;
+}
+a{
+	text-decoration: none;
+}
+/*title*/
+.title-header{
+	padding: 2%;
+}
+.title-header a{
+	color: #14244D;
+	font-size: 1.7em;
+	text-transform: uppercase;
+	font-weight: bolder;
+}
+
+/*navigation*/
+nav{
+	padding-bottom: 2%;
+}
+nav a{
+	padding: 1% 3% 0;
+	font-weight:bold;
+	font-size: 1em;
+	color: #C2C2C2;
+}
+nav a:hover{
+	text-shadow: 0px 2px 3px;
+}
+
+/*form*/
+.form h3{
+	font-size:2em;
+	padding: 12% 0 8% 0;
+	color: #14244D;
+	font-weight: bold;
+}
+.form{
+	background-image: url(../img/shoes_!.jpg);
+	background-size: 60%;
+	background-repeat: no-repeat;
+	background-position: right;
+	padding-bottom: 5%;
+}
+
+#contact-form .textinput{
+	width: 100%;
+	border-color: #dedede;
+	font-size:0.9em;
+	margin-bottom: 2%;
+	border-style: solid;
+    border-width: 1px;
+    padding: 2% 15%;
+    padding-left: 40px;
+    display: block;
+    color:black;
+}
+
+#contact-form .textblock{
+	width: 100%;
+	height: 160px;
+	border-color: #dedede;
+	font-size:1em;
+	margin-bottom: 2%;
+	border-style: solid;
+	border-width: 1px;
+	padding: 2% 15%;
+	padding-left:40px;
+	display: block;
+	color:black;
+}
+
+#contact-form input#name {
+background: #fff url(../img/iconos/name.svg) no-repeat;
+background-size: 20px 20px;
+background-position:10px;
+ }
+
+#contact-form input#email {
+background: #fff url(../img/iconos/email.svg) no-repeat;
+background-size: 20px 20px;
+background-position:10px;
+}
+
+#contact-form textarea.textblock {
+background:  url(../img/iconos/comment.svg) no-repeat;
+background-size: 20px 20px;
+background-position:10px 8px;
+}
+
+.submit-btn{
+	width: 100%;
+	background-color:#0B0B3B;
+	padding: 5%;
+	font-size: 1em;
+	border-radius: 4px;
+	border:none;
+}
+#submit-btn:hover,#submit-btn:active {
+	color: #dfdede;
+	box-shadow: inset 0 1px 0 rgba(256,256,256,0.4),0 1px 3px rgba(0,0,0,0.5);
+}
+
+/*footer*/
+footer{
+	background-color: #0B0B3B;
+	padding: 2%;
+	font-size: 0.8em;
+}

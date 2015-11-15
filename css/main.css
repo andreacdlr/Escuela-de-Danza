@@ -1,0 +1,102 @@
+/*hero image*/
+.hero-image{
+	background-image: url(../img/dance_1.jpg);
+	padding: 5% 10% 8%;
+	background-position:top;
+}
+.hero-image h2{
+	font-size: 4em;
+	padding-bottom:3%;
+	opacity:0.6;
+}
+.hero-image p{
+	padding-bottom:5%;
+	font-size: 0.85em;
+	opacity:0.6;
+}
+.hero-image a{
+	display: inline-block;
+	background-color:#0C0E22;
+	padding: 2% 6%;
+	font-size:0.9em;	
+}
+.hero-image a:hover{
+	opacity: 0.6;
+}
+/*introduction*/
+
+.introduction{
+	background-image: url(../img/textura_2.jpg);
+	padding:5% 10%;
+}
+.introduction h2{
+	font-size: 1.5em;
+	padding-bottom: 1%;
+	color: #14244D;
+}
+.introduction img{
+   width: 13%;
+}
+.introduction a{
+	display: inline-block;
+	background-color: #0B0B3B;
+	padding: 2% 10%;
+	border-radius: 5px;
+}
+.introduction a:hover{
+	opacity: 0.9;
+}
+
+/*banner*/
+.banner{
+	position: relative;
+}
+.banner-left{
+	background-image: url(../img/instructor_4.jpg);
+	padding-bottom: 23.5%;
+	background-position: top;
+	border: 2px solid #0B0B3B;
+}
+.banner-right{
+	background-image: url(../img/profesor_9.jpg);
+	padding-bottom: 23.5%;
+	background-position: top;
+	border: 2px solid #0B0B3B;
+}
+.banner p{
+	position: absolute;
+	bottom: 0;
+	left: 31%;
+	background-color:#0B0B3B;
+	font-size: 1.3em;
+	padding: 2% 12%; 
+}
+
+/*tagline*/
+.tagline{
+	background-image: url(../img/textura_2.jpg);
+	padding: 7% 14%;
+}
+.tagline h3{
+	font-size:2.5em; 
+	font-style: italic;
+	color: #14244D;
+}
+
+/*location*/
+.location{
+	background-color: #0B0B3B;
+	padding: 6% 10% 5% 5%;
+}
+.location p{
+	padding-right:27%;
+	font-size: 0.9em;
+}
+.contact-location{
+	font-size: 0.7em;
+}
+.map{
+	width: 90%;
+	padding: 2%;
+}
+
